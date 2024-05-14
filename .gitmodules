@@ -1,0 +1,6 @@
+[submodule "BenchmarkJava"]
+	path = BenchmarkJava
+	url = git@github.com:OWASP-Benchmark/BenchmarkJava.git
+[submodule "vul4j"]
+	path = vul4j
+	url = https://github.com/tuhh-softsec/vul4j.git

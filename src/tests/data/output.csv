@@ -1,0 +1,5 @@
+Test Name,Expected is Vulnerable,Expected CWE,Predicted is Vulnerable,Predicted CWE
+BenchmarkTest01.java,false,78,true,78
+BenchmarkTest02.java,false,78,true,78
+BenchmarkTest03.java,true,22,true,22
+BenchmarkTest04.java,false,330,false,330

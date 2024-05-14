@@ -1,0 +1,22 @@
+{
+    "[python]": {
+        "isort.args": ["--profile", "black"],
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        }
+    },
+    "[json]": {
+        "editor.quickSuggestions": {
+            "strings": true
+        },
+        "editor.suggest.insertMode": "replace",
+        "editor.formatOnSave": true
+    },
+    "python.testing.pytestArgs": [
+        "../tests"
+    ],
+    "python.testing.cwd": "${workspaceFolder}/src/vulnerability_infer",
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
+}
